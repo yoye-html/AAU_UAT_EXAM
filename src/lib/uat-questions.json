@@ -1,0 +1,924 @@
+[
+  {
+    "id": 1,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The relationship between language and thought has long fascinated philosophers and linguists alike. Some scholars argue that language shapes thought — that the words available to us determine what we are capable of thinking. Others contend that thought is primary, and language merely serves as a vehicle for expressing ideas that exist independently. A third position holds that language and thought are deeply intertwined, each influencing and reshaping the other in a continuous loop.",
+    "question": "The primary purpose of this passage is to:",
+    "options": ["A) Argue that language determines thought", "B) Dismiss the importance of language in cognition", "C) Present multiple scholarly perspectives on the language-thought relationship", "D) Prove that thought exists independently of language"],
+    "correctAnswer": "C",
+    "explanation": "The passage introduces three different scholarly positions without advocating for any one of them — it simply presents the debate. Choice C correctly identifies this as a survey of multiple perspectives."
+  },
+  {
+    "id": 2,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Coral reefs, often called the 'rainforests of the sea,' support approximately 25% of all marine species despite covering less than 1% of the ocean floor. However, rising ocean temperatures caused by climate change have triggered mass bleaching events, in which corals expel the symbiotic algae that give them both color and energy. Without the algae, corals turn white and, if temperatures remain high, die within weeks.",
+    "question": "According to the passage, coral bleaching occurs because:",
+    "options": ["A) Corals absorb too much sunlight", "B) Rising temperatures cause corals to expel their symbiotic algae", "C) Marine species consume the algae living in corals", "D) Corals cover less than 1% of the ocean floor"],
+    "correctAnswer": "B",
+    "explanation": "The passage explicitly states that rising ocean temperatures trigger bleaching events in which corals expel their symbiotic algae. This is a direct-fact retrieval question — always locate the specific sentence in the passage."
+  },
+  {
+    "id": 3,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The printing press, invented by Johannes Gutenberg around 1440, is widely regarded as one of the most transformative inventions in human history. By making book production dramatically cheaper and faster, it enabled the rapid spread of ideas across Europe. Within decades, literacy rates began to climb, religious reformation movements gained momentum, and scientific knowledge could be disseminated far more effectively than ever before.",
+    "question": "The author's tone in this passage is best described as:",
+    "options": ["A) Skeptical and questioning", "B) Informative and admiring", "C) Neutral and detached", "D) Critical and dismissive"],
+    "correctAnswer": "B",
+    "explanation": "The author uses positive language such as 'most transformative inventions' and highlights multiple beneficial outcomes. This suggests an admiring tone combined with an informative intent. 'Neutral' is incorrect because the author clearly celebrates the invention."
+  },
+  {
+    "id": 4,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Urban green spaces — parks, community gardens, and tree-lined streets — provide measurable psychological benefits to city dwellers. Studies have found that exposure to natural environments, even brief ones, can reduce cortisol levels, lower blood pressure, and improve mood. Yet in many rapidly developing cities, green spaces are the first casualty of construction projects, sacrificed for commercial real estate or infrastructure.",
+    "question": "Which of the following best states the central tension in this passage?",
+    "options": ["A) Cortisol levels rise in urban environments", "B) Green spaces are expensive to maintain", "C) The documented benefits of urban green spaces conflict with the trend of eliminating them for development", "D) Tree-lined streets are less effective than parks"],
+    "correctAnswer": "C",
+    "explanation": "The passage sets up two opposing ideas: the clear psychological benefits of green spaces AND the trend of removing them for development. Choice C captures this tension precisely."
+  },
+  {
+    "id": 5,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "For centuries, historians relied almost exclusively on written records — official documents, letters, and chronicles — to reconstruct the past. This approach, while valuable, systematically excluded the experiences of people who were illiterate or who existed outside formal record-keeping structures: peasants, women, enslaved individuals, and indigenous populations. The rise of oral history, archaeology, and material culture studies has begun to correct this imbalance, offering a more complete and democratic picture of human experience.",
+    "question": "The author implies that traditional historical methods were limited primarily because they:",
+    "options": ["A) Were too expensive to conduct", "B) Relied on biased government officials", "C) Excluded the experiences of people who left no written records", "D) Could not accurately date ancient artifacts"],
+    "correctAnswer": "C",
+    "explanation": "The key word is 'implies.' The passage says traditional history relied on written records and then lists groups who were excluded because they were illiterate or outside formal structures. This leads to the inference in Choice C."
+  },
+  {
+    "id": 6,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "In the sentence 'The scientist's meticulous approach to data collection left no room for ambiguity in her findings,' the word 'meticulous' most nearly means:",
+    "options": ["A) Careless", "B) Extremely thorough and precise", "C) Unnecessarily complicated", "D) Innovative"],
+    "correctAnswer": "B",
+    "explanation": "'Meticulous' describes an approach that leaves 'no room for ambiguity.' If there's no ambiguity, the approach must be extremely precise. Eliminate 'careless' (opposite) and 'innovative' (unrelated to precision)."
+  },
+  {
+    "id": 7,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "The word 'ephemeral' is used in the sentence: 'Social media fame is often ephemeral, fading as quickly as it arrives.' Based on context, 'ephemeral' most nearly means:",
+    "options": ["A) Lasting and enduring", "B) Extremely popular", "C) Short-lived and transient", "D) Controversial"],
+    "correctAnswer": "C",
+    "explanation": "The clue is 'fading as quickly as it arrives.' Something that fades quickly is short-lived. 'Lasting and enduring' is the exact opposite, making it a strong distractor to avoid."
+  },
+  {
+    "id": 8,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in the sentence 'The diplomat's candid remarks surprised the audience, who expected carefully scripted statements,' the word 'candid' most nearly means:",
+    "options": ["A) Offensive and rude", "B) Honest and straightforward", "C) Formal and rehearsed", "D) Ambiguous and unclear"],
+    "correctAnswer": "B",
+    "explanation": "The contrast signal 'who expected carefully scripted statements' tells us 'candid' means the opposite of scripted — hence 'honest and straightforward.' Contrast clues are one of the most reliable vocabulary tools."
+  },
+  {
+    "id": 9,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "In context: 'The professor was known for her prolific research output, publishing over forty papers in a single decade.' The word 'prolific' most nearly means:",
+    "options": ["A) Controversial", "B) Highly productive", "C) Methodologically flawed", "D) Interdisciplinary"],
+    "correctAnswer": "B",
+    "explanation": "'Forty papers in a single decade' demonstrates high output. 'Prolific' directly means producing a large amount of work. The context fully supports Choice B."
+  },
+  {
+    "id": 10,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "The word 'pragmatic' is used in the sentence: 'Rather than debating the ideal solution, the team took a pragmatic approach and implemented what was immediately workable.' Based on context, 'pragmatic' most nearly means:",
+    "options": ["A) Theoretical", "B) Practical and results-oriented", "C) Idealistic", "D) Inefficient"],
+    "correctAnswer": "B",
+    "explanation": "The contrast is between 'debating the ideal solution' (theoretical/idealistic) and what the team actually did. 'Pragmatic' is contrasted with idealism, confirming it means practical and results-oriented."
+  },
+  {
+    "id": 11,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which sentence contains a subject-verb agreement error?",
+    "options": ["A) The committee has reached its final decision.", "B) Neither the manager nor the employees were informed in advance.", "C) The collection of rare manuscripts are stored in the archive.", "D) Each of the students is responsible for submitting their own work."],
+    "correctAnswer": "C",
+    "explanation": "In Choice C, the subject is 'collection' (singular), not 'manuscripts.' The verb should be 'is stored,' not 'are stored.' When a prepositional phrase follows the subject, the verb must agree with the actual subject, not the noun in the phrase."
+  },
+  {
+    "id": 12,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which of the following best replaces the underlined portion to improve sentence clarity? 'The new policy will affect everyone; furthermore, it also has an additional impact on part-time workers.'",
+    "options": ["A) furthermore, it has an additional impact", "B) it has an additional impact", "C) furthermore, it also impacts", "D) and additionally it also has an extra impact"],
+    "correctAnswer": "B",
+    "explanation": "'Furthermore,' 'also,' and 'additional' all signal addition, making the original sentence redundant. The cleanest revision eliminates all redundancy: 'it has an additional impact on part-time workers.'"
+  },
+  {
+    "id": 13,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Select the correctly punctuated sentence:",
+    "options": ["A) The experiment was a success however the results were unexpected.", "B) The experiment was a success; however, the results were unexpected.", "C) The experiment was a success, however the results were unexpected.", "D) The experiment was a success however, the results were unexpected."],
+    "correctAnswer": "B",
+    "explanation": "'However' is a conjunctive adverb connecting two independent clauses. It must be preceded by a semicolon and followed by a comma. This is a standard SAT punctuation rule."
+  },
+  {
+    "id": 14,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which transitional word best fits the blank? 'The medication reduced pain effectively. ________, patients reported significant side effects including nausea and fatigue.'",
+    "options": ["A) Therefore", "B) Similarly", "C) However", "D) Furthermore"],
+    "correctAnswer": "C",
+    "explanation": "The two sentences present contrasting information (effective pain reduction vs. side effects). 'However' signals contrast. 'Therefore' implies cause-effect, 'Similarly' implies similarity, and 'Furthermore' adds information — none of which fit a contrast."
+  },
+  {
+    "id": 15,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Identify the pronoun-antecedent error: 'The board of directors announced that they would release their annual report next month.'",
+    "options": ["A) 'they' should be 'it' since 'board' is a collective noun acting as a single unit", "B) 'their' should be 'its' since 'report' is singular", "C) 'announced' should be 'have announced'", "D) There is no error in this sentence."],
+    "correctAnswer": "A",
+    "explanation": "In formal academic writing, collective nouns like 'board,' 'committee,' and 'team' are typically treated as singular, requiring 'it' and 'its.' The sentence should read: 'The board...announced that it would release its annual report.'"
+  },
+  {
+    "id": 16,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Economists distinguish between two types of goods: public goods and private goods. Public goods are non-excludable (you cannot prevent someone from using them) and non-rival (one person's use does not diminish another's). National defense and clean air are classic examples. Private goods, in contrast, are both excludable and rival — a loaf of bread consumed by one person cannot be consumed by another. The existence of public goods creates a 'free-rider problem': individuals may benefit from the good without contributing to its cost.",
+    "question": "Based on the passage, which of the following is the best example of a public good?",
+    "options": ["A) A private swimming pool", "B) A seat on a commercial airline", "C) Street lighting in a city", "D) A loaf of bread"],
+    "correctAnswer": "C",
+    "explanation": "Street lighting is non-excludable (you cannot prevent pedestrians from benefiting) and non-rival (one person's use of the light does not reduce its availability to others). This matches the definition given in the passage."
+  },
+  {
+    "id": 17,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Dopamine is often popularly described as the 'pleasure chemical,' but this characterization is misleading. Neuroscientists have found that dopamine is more accurately associated with anticipation and motivation — the drive to seek rewards — rather than the experience of pleasure itself. In fact, when dopamine pathways are artificially stimulated, animals will compulsively seek rewards they derive no satisfaction from. The actual experience of pleasure is more closely linked to the brain's opioid system.",
+    "question": "The author's main point in this passage is that:",
+    "options": ["A) Dopamine causes addiction in all mammals", "B) The popular understanding of dopamine as a pleasure chemical is inaccurate", "C) The opioid system is more important than dopamine", "D) Neuroscience has fully explained the experience of pleasure"],
+    "correctAnswer": "B",
+    "explanation": "The opening sentence directly challenges the 'pleasure chemical' label, and the rest of the passage supports this correction. Choice B precisely restates this main point. The passage does not rank opioids over dopamine (C), nor does it make a claim about full explanation (D)."
+  },
+  {
+    "id": 18,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "In context: 'The historian's account of the events was comprehensive, covering political, economic, and social dimensions of the crisis.' The word 'comprehensive' most nearly means:",
+    "options": ["A) Brief and selective", "B) Biased toward one perspective", "C) Complete and thorough", "D) Exclusively focused on politics"],
+    "correctAnswer": "C",
+    "explanation": "The evidence is 'covering political, economic, and social dimensions' — multiple dimensions covered means complete and thorough. The context directly supports Choice C."
+  },
+  {
+    "id": 19,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which revision improves the following sentence? 'Being that the deadline was approaching, the team worked faster.'",
+    "options": ["A) Due to the deadline was approaching, the team worked faster.", "B) Because the deadline was approaching, the team worked faster.", "C) The deadline approaching, the team worked faster.", "D) Being that the deadline approached, the team worked faster."],
+    "correctAnswer": "B",
+    "explanation": "'Being that' is a non-standard subordinating conjunction. The correct and most concise replacement is 'Because,' which clearly and correctly introduces a causal relationship."
+  },
+  {
+    "id": 20,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The concept of 'confirmation bias' refers to the human tendency to favor information that confirms pre-existing beliefs while disregarding contradictory evidence. This cognitive bias is not limited to the uneducated — studies show it is equally prevalent among scientists, judges, and other highly trained professionals. Awareness of confirmation bias does not automatically eliminate it; deliberate, structured counter-measures are required to mitigate its effects.",
+    "question": "Which statement is best supported by the passage?",
+    "options": ["A) Confirmation bias only affects people with limited education.", "B) Knowing about confirmation bias is sufficient to overcome it.", "C) Confirmation bias affects professionals as much as non-professionals, and awareness alone does not fix it.", "D) Scientists are immune to confirmation bias because of their training."],
+    "correctAnswer": "C",
+    "explanation": "The passage explicitly states that confirmation bias is 'equally prevalent among scientists, judges, and other trained professionals' and that 'awareness does not automatically eliminate it.' Choice C combines both key points accurately."
+  },
+  {
+    "id": 21,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "The word 'ubiquitous' is used in: 'Smartphones have become so ubiquitous that it is now unusual to encounter someone without one.' Based on context, 'ubiquitous' most nearly means:",
+    "options": ["A) Expensive and exclusive", "B) Present everywhere", "C) Technically complex", "D) Recently invented"],
+    "correctAnswer": "B",
+    "explanation": "The clue 'unusual to encounter someone without one' implies that smartphones are found everywhere — i.e., ubiquitous means present everywhere."
+  },
+  {
+    "id": 22,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Choose the sentence that uses parallel structure correctly:",
+    "options": ["A) She enjoys reading novels, to hike mountains, and cooking meals.", "B) She enjoys reading novels, hiking mountains, and cooking meals.", "C) She enjoys to read novels, hiking mountains, and to cook meals.", "D) She enjoys reading novels, mountain hiking, and to cook meals."],
+    "correctAnswer": "B",
+    "explanation": "Parallel structure requires that all items in a list follow the same grammatical form. In Choice B, all three activities use the gerund (-ing) form: reading, hiking, cooking. The other choices mix gerunds and infinitives."
+  },
+  {
+    "id": 23,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Altruism — the selfless concern for the well-being of others — has puzzled evolutionary biologists for decades. If natural selection favors traits that maximize an individual's reproductive fitness, why would self-sacrifice evolve? One explanation is kin selection: organisms that sacrifice for close genetic relatives effectively promote the survival of shared genes. Another is reciprocal altruism: cooperation with non-relatives can evolve if both parties benefit over time.",
+    "question": "According to the passage, kin selection explains altruism by arguing that:",
+    "options": ["A) Altruism increases an organism's own survival rate", "B) Helping relatives promotes the survival of shared genes", "C) Cooperation with strangers is always beneficial", "D) Natural selection does not apply to social animals"],
+    "correctAnswer": "B",
+    "explanation": "The passage states that through kin selection, organisms 'sacrifice for close genetic relatives' to 'promote the survival of shared genes.' Choice B restates this explanation precisely."
+  },
+  {
+    "id": 24,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in 'The committee was deadlocked, unable to reach a consensus on the proposed budget,' the word 'consensus' most nearly means:",
+    "options": ["A) A financial agreement", "B) A general agreement among all members", "C) A legal document", "D) A voting procedure"],
+    "correctAnswer": "B",
+    "explanation": "The committee was 'unable to reach' a consensus, meaning they could not agree. The word 'deadlocked' reinforces the idea of disagreement, confirming that 'consensus' means general agreement."
+  },
+  {
+    "id": 25,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which sentence is free of a dangling modifier?",
+    "options": ["A) Running late for the meeting, the report was forgotten.", "B) Running late for the meeting, she forgot the report.", "C) Running late, the report was left behind by her.", "D) Having been forgotten, she ran late with the report."],
+    "correctAnswer": "B",
+    "explanation": "A dangling modifier occurs when the action in the opening phrase does not logically apply to the subject that follows. In Choice B, 'Running late' correctly modifies 'she.' In A and C, the report cannot run late."
+  },
+  {
+    "id": 26,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The placebo effect demonstrates the remarkable capacity of belief to produce measurable physiological changes. Patients given sugar pills but told they are receiving active medication often report genuine symptom relief, and in some cases, brain scans have confirmed actual neurochemical changes. Critics argue this undermines the integrity of clinical trials; proponents counter that it reveals the profound influence of the mind on the body.",
+    "question": "The word 'integrity' in 'critics argue this undermines the integrity of clinical trials' most nearly means:",
+    "options": ["A) Cost-effectiveness", "B) Reliability and validity", "C) Duration", "D) Ethical approval"],
+    "correctAnswer": "B",
+    "explanation": "If the placebo effect 'undermines' clinical trials, it compromises the ability of those trials to produce trustworthy, valid results. 'Integrity' in this scientific context means reliability and validity."
+  },
+  {
+    "id": 27,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which sentence correctly uses a comma to separate coordinate adjectives?",
+    "options": ["A) She carried a small leather worn briefcase.", "B) She carried a small, worn, leather briefcase.", "C) She carried a small worn, leather briefcase.", "D) She carried a, small, worn leather briefcase."],
+    "correctAnswer": "B",
+    "explanation": "Coordinate adjectives each independently modify the noun and should be separated by commas. Test: if you can insert 'and' between adjectives and the sentence still makes sense, use a comma. 'Small and worn and leather briefcase' works."
+  },
+  {
+    "id": 28,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Abstract art emerged in the early twentieth century as artists abandoned the tradition of depicting recognizable objects and figures. Pioneers like Wassily Kandinsky argued that color and form could express emotional and spiritual truths independently of any reference to the visible world. Critics at the time dismissed the movement as self-indulgent and meaningless. Over the following decades, however, abstract art became central to the Western canon, featured prominently in major museums worldwide.",
+    "question": "Based on the passage, which of the following best describes how abstract art's reception changed over time?",
+    "options": ["A) It remained controversial and was never accepted by mainstream institutions.", "B) It was initially celebrated and later dismissed.", "C) It was initially dismissed but eventually became mainstream.", "D) It was invented to challenge Eastern artistic traditions."],
+    "correctAnswer": "C",
+    "explanation": "The passage traces a clear arc: critics 'dismissed' it initially, but 'over the following decades' it 'became central to the Western canon.' This is a classic 'change over time' reading comprehension question."
+  },
+  {
+    "id": 29,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "The word 'exacerbate' is used in: 'Poor sleep habits exacerbate stress, creating a damaging feedback loop.' Based on context, 'exacerbate' most nearly means:",
+    "options": ["A) Relieve", "B) Cause initially", "C) Make worse", "D) Measure"],
+    "correctAnswer": "C",
+    "explanation": "The 'damaging feedback loop' implies that sleep habits are worsening an existing problem (stress). 'Exacerbate' means to make a bad situation worse. 'Relieve' is the direct opposite."
+  },
+  {
+    "id": 30,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Identify the sentence with a misplaced modifier:",
+    "options": ["A) She almost drove her children to school every day.", "B) He only eats vegetables on weekdays.", "C) The professor explained the theorem clearly.", "D) We quickly finished the assignment."],
+    "correctAnswer": "A",
+    "explanation": "In Choice A, 'almost' modifies 'drove,' implying she nearly drove but didn't. The intended meaning is that she drove her children to school on almost every day. The adverb 'almost' is misplaced."
+  },
+  {
+    "id": 31,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Microplastics — tiny plastic particles less than five millimeters in diameter — have been detected in environments ranging from the deepest ocean trenches to the highest mountain peaks, and even in human blood and lung tissue. While the full health implications remain under active investigation, early studies suggest potential links to inflammation, hormonal disruption, and cellular damage. The pervasiveness of microplastics in ecosystems reflects both the durability of plastic as a material and the inadequacy of current waste management systems.",
+    "question": "The author uses the phrase 'from the deepest ocean trenches to the highest mountain peaks' primarily to:",
+    "options": ["A) Describe the geography of pollution research", "B) Emphasize the extreme geographic reach of microplastic contamination", "C) Suggest that remote areas are the most affected by microplastics", "D) Compare two different types of ecosystems"],
+    "correctAnswer": "B",
+    "explanation": "This is a rhetorical strategy question. The author uses extreme geographic contrasts to underscore the extraordinary reach of contamination. The point is to emphasize scale and pervasiveness."
+  },
+  {
+    "id": 32,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in 'The senator's equivocal response frustrated journalists who wanted a direct answer,' the word 'equivocal' most nearly means:",
+    "options": ["A) Lengthy and detailed", "B) Deliberately ambiguous", "C) Confident and assertive", "D) Grammatically incorrect"],
+    "correctAnswer": "B",
+    "explanation": "Journalists were frustrated because they wanted a 'direct answer' but didn't get one. The contrast with 'direct' confirms that 'equivocal' means ambiguous or unclear."
+  },
+  {
+    "id": 33,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The discipline of behavioral economics emerged from the observation that humans frequently deviate from the rational decision-making models assumed by classical economics. Pioneered by Daniel Kahneman and Amos Tversky, the field documents systematic cognitive biases — such as loss aversion (people fear losses more than they value equivalent gains) and anchoring (the tendency to rely too heavily on the first piece of information encountered). These findings have profound implications for public policy, marketing, and financial decision-making.",
+    "question": "According to the passage, loss aversion means that:",
+    "options": ["A) People prefer larger gains over smaller ones", "B) People are more motivated by avoiding losses than by acquiring equivalent gains", "C) People make fully rational financial decisions", "D) People ignore the first piece of information they receive"],
+    "correctAnswer": "B",
+    "explanation": "The passage defines loss aversion parenthetically as: 'people fear losses more than they value equivalent gains.' Choice B accurately restates this definition."
+  },
+  {
+    "id": 34,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which sentence avoids wordiness most effectively? Original: 'Due to the fact that it was raining, we decided to postpone the outdoor event.'",
+    "options": ["A) Because of the reason that rain was present, we postponed the outdoor event.", "B) Since it was raining, we postponed the outdoor event.", "C) Owing to the fact that there was rainfall, we postponed the outdoor event.", "D) Because it was raining outside, we decided that we would postpone the outdoor event."],
+    "correctAnswer": "B",
+    "explanation": "'Due to the fact that' is wordy and can always be replaced by 'Because' or 'Since.' Choice B is the most concise, removing unnecessary phrases while preserving the full meaning."
+  },
+  {
+    "id": 35,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "In recent decades, many cities have adopted 'congestion pricing' — charging drivers a fee to enter high-traffic urban zones during peak hours. Proponents argue that this reduces traffic, lowers emissions, and generates revenue for public transportation improvements. Opponents contend that it disproportionately burdens lower-income workers who cannot afford the fees or do not have access to alternative transit. The debate reveals a fundamental tension between environmental efficiency and social equity.",
+    "question": "With which of the following statements would opponents of congestion pricing most likely agree?",
+    "options": ["A) Reducing traffic is not a worthwhile goal.", "B) Lower-income workers are most harmed by congestion pricing.", "C) Congestion pricing generates insufficient revenue.", "D) Public transportation needs no improvement."],
+    "correctAnswer": "B",
+    "explanation": "The passage states that opponents argue the policy 'disproportionately burdens lower-income workers.' Choice B directly reflects the opponents' stated concern."
+  },
+  {
+    "id": 36,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in 'The report was unambiguous: immediate action was imperative.' The word 'imperative' most nearly means:",
+    "options": ["A) Optional", "B) Recommended but not required", "C) Absolutely necessary", "D) Harmful"],
+    "correctAnswer": "C",
+    "explanation": "The report provides no ambiguity and calls for 'immediate action' using 'imperative,' meaning absolutely necessary or urgent. The combination with 'unambiguous' reinforces the strong, non-optional nature of the directive."
+  },
+  {
+    "id": 37,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The philosophical thought experiment known as 'the trolley problem,' introduced by Philippa Foot and later expanded by Judith Jarvis Thomson, poses a stark ethical dilemma: a runaway trolley is heading toward five people tied to the tracks. You can pull a lever to divert it to a side track, where it will kill one person instead. Most people say they would pull the lever — but far fewer say they would physically push a bystander onto the tracks to stop the trolley, even if the outcome (five lives saved, one lost) is mathematically identical.",
+    "question": "The trolley problem primarily illustrates that:",
+    "options": ["A) Mathematical outcomes alone do not determine moral intuitions about action", "B) Most people are consequentialists in all ethical situations", "C) Physical force is always less acceptable than mechanical means", "D) Five lives are always worth more than one life"],
+    "correctAnswer": "A",
+    "explanation": "The key detail is that the outcome is 'mathematically identical' in both scenarios, yet people respond differently. This shows that factors beyond outcomes (like the nature of the action itself) influence moral judgment — i.e., outcomes alone don't determine ethics."
+  },
+  {
+    "id": 38,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Select the option that corrects the comma splice: 'The results were conclusive, the study was published immediately.'",
+    "options": ["A) The results were conclusive the study was published immediately.", "B) The results were conclusive; the study was published immediately.", "C) The results were conclusive, but, the study was published immediately.", "D) The results were conclusive, since the study was published immediately."],
+    "correctAnswer": "B",
+    "explanation": "A comma splice occurs when two independent clauses are joined by only a comma. Corrections include: using a semicolon, adding a coordinating conjunction (FANBOYS), or making one clause subordinate. Choice B correctly uses a semicolon."
+  },
+  {
+    "id": 39,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Sleep is not a passive state but an active and complex biological process. During sleep, the brain cycles through different stages, including rapid eye movement (REM) sleep, during which most vivid dreaming occurs, and non-REM sleep, which includes the deepest stages of rest. Research has shown that sleep deprivation impairs cognitive function, emotional regulation, and immune response. Chronically sleep-deprived individuals show deficits comparable to those seen after sustained alcohol intoxication.",
+    "question": "The comparison to alcohol intoxication in the final sentence serves primarily to:",
+    "options": ["A) Discourage alcohol consumption", "B) Emphasize how severely sleep deprivation impairs function", "C) Suggest that alcohol improves sleep quality", "D) Define what constitutes chronic sleep deprivation"],
+    "correctAnswer": "B",
+    "explanation": "The author uses the alcohol comparison as an analogy to help readers appreciate the severity of sleep deprivation's cognitive effects. This is a rhetorical purpose question — the comparison functions to dramatize and emphasize the impact."
+  },
+  {
+    "id": 40,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in: 'The new evidence was anomalous and did not fit any of the existing theoretical frameworks.' The word 'anomalous' most nearly means:",
+    "options": ["A) Consistent with expectations", "B) Statistically significant", "C) Deviating from what is standard or expected", "D) Widely accepted"],
+    "correctAnswer": "C",
+    "explanation": "The clue 'did not fit any of the existing theoretical frameworks' means the evidence was irregular or unusual — which is precisely what 'anomalous' means: deviating from what is standard or expected."
+  },
+  {
+    "id": 41,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Biomimicry is an approach to innovation that draws inspiration from natural systems and organisms. Engineers have developed water collection surfaces based on the Namib desert beetle's shell, which captures fog droplets; aerodynamic train noses modeled on the kingfisher's beak to reduce sonic booms; and adhesives inspired by gecko feet. The underlying principle is that billions of years of evolution have already solved many engineering problems more efficiently than human designers working in isolation.",
+    "question": "The author's attitude toward biomimicry is best described as:",
+    "options": ["A) Critical and skeptical", "B) Neutral and detached", "C) Enthusiastic and supportive", "D) Uncertain and exploratory"],
+    "correctAnswer": "C",
+    "explanation": "The author presents multiple successful examples and frames evolution as having 'already solved many engineering problems more efficiently.' This positive framing, without counterarguments, signals an enthusiastic and supportive stance."
+  },
+  {
+    "id": 42,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which version of the sentence is most concise and grammatically correct? Original: 'In spite of the fact that she was tired, she continued to work.'",
+    "options": ["A) In spite of her tiredness, she continued to work.", "B) Despite being tired, she continued to work.", "C) Although tired, she continued working.", "D) All of the above are correct and equally concise."],
+    "correctAnswer": "C",
+    "explanation": "All three options (A, B, C) are grammatically correct, but 'Although tired, she continued working' eliminates the most words while preserving full meaning, making it the most concise. On the SAT-style UAT, brevity with accuracy is the goal."
+  },
+  {
+    "id": 43,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "In context: 'The CEO's tenure was marked by relentless innovation and, at times, ruthless cost-cutting.' The word 'tenure' most nearly means:",
+    "options": ["A) Personality", "B) Period of holding a position", "C) Management style", "D) Financial strategy"],
+    "correctAnswer": "B",
+    "explanation": "'Tenure' refers to the time period during which someone holds a position. The sentence describes what happened 'during' this period, confirming that tenure = period of office."
+  },
+  {
+    "id": 44,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The term 'dark matter' does not refer to matter that is dark in color, but to matter that does not interact with the electromagnetic force and therefore cannot be directly observed through light. Astronomers infer its existence from its gravitational effects on visible matter: galaxies rotate at speeds that cannot be explained by the visible mass alone, and galaxy clusters bend light in ways that require far more mass than astronomers can directly observe. Dark matter is estimated to constitute approximately 27% of the universe.",
+    "question": "According to the passage, how do astronomers know dark matter exists if it cannot be directly observed?",
+    "options": ["A) They have measured dark matter using specialized dark-spectrum telescopes.", "B) They infer its existence from its gravitational effects on visible matter.", "C) They have observed dark matter in laboratory conditions.", "D) Dark matter emits a faint light detectable by radio telescopes."],
+    "correctAnswer": "B",
+    "explanation": "The passage explicitly states: 'Astronomers infer its existence from its gravitational effects on visible matter.' This is a direct-retrieval question; always look for the exact sentence in the passage."
+  },
+  {
+    "id": 45,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which choice most effectively combines the following two sentences? 'The author wrote over fifty novels. She won the Nobel Prize in Literature.'",
+    "options": ["A) The author wrote over fifty novels and also she won the Nobel Prize in Literature.", "B) Having written over fifty novels, the author won the Nobel Prize in Literature.", "C) The author, writing over fifty novels, won the Nobel Prize in Literature.", "D) The author wrote over fifty novels; winning the Nobel Prize in Literature."],
+    "correctAnswer": "B",
+    "explanation": "Choice B uses a participial phrase to combine the sentences elegantly, implying that the prolific output was connected to the prize. Choice A is grammatically correct but wordy. Choice D uses a semicolon incorrectly (the second clause is not independent)."
+  },
+  {
+    "id": 46,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The concept of 'nudge theory,' popularized by economists Richard Thaler and Cass Sunstein, proposes that the way choices are presented can significantly influence behavior without restricting freedom of choice. For example, placing healthy foods at eye level in cafeterias increases their selection without banning unhealthy options. Organ donation rates are dramatically higher in countries that use opt-out systems (where citizens are automatically enrolled) compared to opt-in systems, even though both allow individuals to change their status.",
+    "question": "Based on the passage, nudge theory differs from traditional regulation primarily because:",
+    "options": ["A) Nudge theory bans unhealthy or undesirable choices outright", "B) Nudge theory influences behavior through choice architecture without removing options", "C) Nudge theory is more expensive to implement than traditional regulation", "D) Traditional regulation relies on behavioral economics"],
+    "correctAnswer": "B",
+    "explanation": "The passage explicitly notes nudges influence behavior 'without restricting freedom of choice.' This distinguishes nudges from traditional regulation, which typically mandates or prohibits behaviors."
+  },
+  {
+    "id": 47,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in 'Critics were initially disparaging of the novel, but it is now considered a masterpiece,' the word 'disparaging' most nearly means:",
+    "options": ["A) Enthusiastic", "B) Indifferent", "C) Highly critical and dismissive", "D) Confused"],
+    "correctAnswer": "C",
+    "explanation": "The contrast signal 'but' followed by 'now considered a masterpiece' implies that the initial reception was the opposite — negative and dismissive. 'Disparaging' means expressing contempt or criticism."
+  },
+  {
+    "id": 48,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which sentence uses the apostrophe correctly?",
+    "options": ["A) The committee submitted it's final report on Thursday.", "B) The committee submitted its' final report on Thursday.", "C) The committee submitted its final report on Thursday.", "D) The committee submitted their's final report on Thursday."],
+    "correctAnswer": "C",
+    "explanation": "'Its' (possessive pronoun) never takes an apostrophe. 'It's' always means 'it is.' This is one of the most commonly tested grammar rules. Remember: possessive pronouns (his, her, its, their, our) never use apostrophes."
+  },
+  {
+    "id": 49,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Economic inequality has widened considerably in most developed countries over the past four decades. While the causes are debated, leading explanations include technological change (which has replaced many routine jobs and increased returns to high-skilled workers), globalization (which has moved manufacturing to lower-wage countries), and changes in labor market institutions such as the decline of unions. Some economists argue that inequality itself slows growth by suppressing consumer spending among the majority; others contend that inequality is a natural byproduct of dynamic market economies.",
+    "question": "According to the passage, what is one potential economic consequence of increasing inequality?",
+    "options": ["A) It accelerates technological innovation", "B) It strengthens labor unions", "C) It may suppress consumer spending and slow growth", "D) It encourages globalization"],
+    "correctAnswer": "C",
+    "explanation": "The passage states some economists argue inequality 'slows growth by suppressing consumer spending among the majority.' Choice C directly reflects this claim."
+  },
+  {
+    "id": 50,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "In the sentence: 'Her resilience in the face of repeated setbacks was remarkable,' the word 'resilience' most nearly means:",
+    "options": ["A) Stubbornness and inflexibility", "B) Ability to recover from adversity", "C) Physical strength", "D) Emotional detachment"],
+    "correctAnswer": "B",
+    "explanation": "'Repeated setbacks' are adversities. 'Resilience' is the capacity to bounce back from them. The phrase 'in the face of' confirms the relationship between difficulty and the quality being praised."
+  },
+  {
+    "id": 51,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "Photography's invention in the 19th century sparked fierce debate about the future of painting. Some critics predicted that painters would become obsolete, since a machine could now capture reality with far greater accuracy. What actually happened was that many painters embraced photography's existence as liberating: freed from the obligation to document reality precisely, they could pursue abstraction, expression, and experimentation. Impressionism, Post-Impressionism, and eventually Modernism were, in part, responses to photography's challenge.",
+    "question": "The passage suggests that photography's invention had which unexpected effect on painting?",
+    "options": ["A) It made painting obsolete within a generation.", "B) It led painters to become photographers.", "C) It freed painters to pursue more experimental and expressive styles.", "D) It had no meaningful impact on the art world."],
+    "correctAnswer": "C",
+    "explanation": "The passage says that rather than becoming obsolete, painters found photography 'liberating' and pursued 'abstraction, expression, and experimentation.' This is the unexpected positive outcome."
+  },
+  {
+    "id": 52,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which transitional phrase most logically completes the sentence? 'The team had thoroughly prepared for every contingency. ________, the sudden system failure caught them completely off guard.'",
+    "options": ["A) As a result", "B) In addition", "C) Similarly", "D) Nevertheless"],
+    "correctAnswer": "D",
+    "explanation": "'Nevertheless' signals contrast between prior preparation and an unexpected negative outcome. 'As a result' would imply the failure was caused by the preparation (illogical). 'In addition' and 'Similarly' add or compare — neither works here."
+  },
+  {
+    "id": 53,
+    "section": "Verbal Reasoning",
+    "topic": "Vocabulary in Context",
+    "question": "As used in 'The phenomenon remained largely enigmatic to scientists until a breakthrough experiment in 2019,' the word 'enigmatic' most nearly means:",
+    "options": ["A) Well-understood", "B) Controversial", "C) Mysterious and not fully understood", "D) Widely observed"],
+    "correctAnswer": "C",
+    "explanation": "The breakthrough experiment in 2019 presumably solved the mystery — which means the phenomenon was previously mysterious. 'Enigmatic' means mysterious or puzzling."
+  },
+  {
+    "id": 54,
+    "section": "Verbal Reasoning",
+    "topic": "Reading Comprehension",
+    "passage": "The terms 'weather' and 'climate' are frequently confused. Weather refers to short-term atmospheric conditions at a specific location — the temperature, humidity, and precipitation on a given day. Climate refers to the long-term average patterns of weather over a region, typically measured over at least 30 years. When people point to a cold winter day as evidence against global warming, they are confusing weather with climate — a single day's observation cannot refute a decades-long trend.",
+    "question": "Based on the passage, a scientist claiming that global warming is false because it snowed heavily last winter is committing which error?",
+    "options": ["A) Confusing correlation with causation", "B) Misapplying statistical methods", "C) Confusing short-term weather observations with long-term climate trends", "D) Failing to consider geographic variation"],
+    "correctAnswer": "C",
+    "explanation": "The passage directly addresses this error in its final sentence: pointing to 'a cold winter day' (weather) as evidence against 'global warming' (climate) confuses weather with climate. Choice C precisely names this error."
+  },
+  {
+    "id": 55,
+    "section": "Verbal Reasoning",
+    "topic": "Writing & Language",
+    "question": "Which version of the underlined portion best maintains formal academic register? 'The data clearly shows that the intervention was effective, but we gotta think about long-term sustainability.'",
+    "options": ["A) but we gotta think about long-term sustainability.", "B) but we must consider long-term sustainability.", "C) but thinking about long-term sustainability is a thing we need to do.", "D) but long-term sustainability is something we've got to think about."],
+    "correctAnswer": "B",
+    "explanation": "'Gotta' is informal and inappropriate in academic writing. Choice B replaces it with 'must consider,' which is precise, formal, and concise — the ideal register for academic and professional writing."
+  },
+  {
+    "id": 56,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "If 2x + 5 = 17, what is the value of 4x?",
+    "options": ["A) 6", "B) 12", "C) 24", "D) 48"],
+    "correctAnswer": "C",
+    "explanation": "First solve for x: 2x = 17 - 5 = 12, so x = 6. The question asks for 4x = 4(6) = 24. Notice the question asks for 4x, not x — always read carefully."
+  },
+  {
+    "id": 57,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "Which value of x satisfies both 3x - 1 > 8 AND x < 5?",
+    "options": ["A) x = 2", "B) x = 3", "C) x = 4", "D) x = 6"],
+    "correctAnswer": "C",
+    "explanation": "From 3x - 1 > 8: 3x > 9, so x > 3. Combined with x < 5, the solution is 3 < x < 5. Of the choices, only x = 4 falls in this range. Always solve both inequalities first, then find the intersection."
+  },
+  {
+    "id": 58,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "A system of equations is given: y = 2x + 3 and y = -x + 9. What is the value of x at the point of intersection?",
+    "options": ["A) x = 1", "B) x = 2", "C) x = 3", "D) x = 6"],
+    "correctAnswer": "B",
+    "explanation": "Set the two expressions equal: 2x + 3 = -x + 9. Add x to both sides: 3x + 3 = 9. Subtract 3: 3x = 6. Divide: x = 2. Then y = 2(2) + 3 = 7. You can verify: y = -2 + 9 = 7. ✓"
+  },
+  {
+    "id": 59,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "What is the slope of a line that passes through the points (1, 4) and (3, 10)?",
+    "options": ["A) 2", "B) 3", "C) 4", "D) 6"],
+    "correctAnswer": "B",
+    "explanation": "Slope = (y₂ - y₁) / (x₂ - x₁) = (10 - 4) / (3 - 1) = 6/2 = 3. The slope formula is one of the most frequently tested in the Heart of Algebra section. Memorize it."
+  },
+  {
+    "id": 60,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "If 5(x - 2) = 3x + 6, what is the value of x?",
+    "options": ["A) 4", "B) 6", "C) 8", "D) 10"],
+    "correctAnswer": "C",
+    "explanation": "Expand: 5x - 10 = 3x + 6. Subtract 3x: 2x - 10 = 6. Add 10: 2x = 16. Divide: x = 8. Always distribute before collecting like terms."
+  },
+  {
+    "id": 61,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "A line has the equation y = -3x + 7. What is its y-intercept?",
+    "options": ["A) -3", "B) 3", "C) 7", "D) -7"],
+    "correctAnswer": "C",
+    "explanation": "In slope-intercept form y = mx + b, 'm' is the slope and 'b' is the y-intercept. Here, b = 7. The slope is -3, but the question asks for the y-intercept specifically."
+  },
+  {
+    "id": 62,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "The sum of three consecutive integers is 54. What is the smallest of the three integers?",
+    "options": ["A) 16", "B) 17", "C) 18", "D) 19"],
+    "correctAnswer": "B",
+    "explanation": "Let the integers be n, n+1, n+2. Then n + (n+1) + (n+2) = 54 → 3n + 3 = 54 → 3n = 51 → n = 17. The three integers are 17, 18, 19. Always define your variable clearly."
+  },
+  {
+    "id": 63,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "Which equation represents a line parallel to y = 4x - 3?",
+    "options": ["A) y = -4x + 1", "B) y = 4x + 7", "C) y = (1/4)x + 2", "D) y = -x - 3"],
+    "correctAnswer": "B",
+    "explanation": "Parallel lines have the same slope. The slope of y = 4x - 3 is 4. The only option with slope 4 is y = 4x + 7 (Choice B). Perpendicular lines would have slope -1/4."
+  },
+  {
+    "id": 64,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "If |2x - 4| = 10, what are the possible values of x?",
+    "options": ["A) x = 7 only", "B) x = -3 only", "C) x = 7 or x = -3", "D) x = 5 or x = -1"],
+    "correctAnswer": "C",
+    "explanation": "Absolute value creates two cases: (1) 2x - 4 = 10 → 2x = 14 → x = 7; (2) 2x - 4 = -10 → 2x = -6 → x = -3. Always solve both cases for absolute value equations."
+  },
+  {
+    "id": 65,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A store sells a jacket for $120 after applying a 25% discount. What was the original price?",
+    "options": ["A) $90", "B) $144", "C) $150", "D) $160"],
+    "correctAnswer": "D",
+    "explanation": "If the discounted price is 75% of the original (100% - 25% = 75%), then: 0.75 × P = 120 → P = 120 / 0.75 = $160. A common mistake is to add 25% to $120, which gives $150 — this is incorrect because the percentage is taken off the original, not the sale price."
+  },
+  {
+    "id": 66,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "The scores on a math test are: 72, 85, 90, 68, 95, 85, 78. What is the median score?",
+    "options": ["A) 78", "B) 82", "C) 85", "D) 90"],
+    "correctAnswer": "C",
+    "explanation": "Arrange in ascending order: 68, 72, 78, 85, 85, 90, 95. With 7 values, the median is the 4th value = 85. Always sort the data before finding the median. The median is NOT affected by outliers."
+  },
+  {
+    "id": 67,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A car travels 240 kilometers in 3 hours. At the same rate, how far will it travel in 5 hours?",
+    "options": ["A) 350 km", "B) 380 km", "C) 400 km", "D) 420 km"],
+    "correctAnswer": "C",
+    "explanation": "Rate = 240/3 = 80 km/h. In 5 hours: 80 × 5 = 400 km. Rate × Time = Distance is one of the most fundamental formulas in Data Analysis questions."
+  },
+  {
+    "id": 68,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "In a class of 30 students, 40% scored above 80 on a test. How many students scored 80 or below?",
+    "options": ["A) 12", "B) 15", "C) 18", "D) 20"],
+    "correctAnswer": "C",
+    "explanation": "40% scored above 80, so 60% scored 80 or below. 60% × 30 = 0.60 × 30 = 18 students. Read carefully: the question asks for those who scored 80 or BELOW — i.e., 100% minus 40%."
+  },
+  {
+    "id": 69,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A bag contains 4 red marbles, 6 blue marbles, and 2 green marbles. If one marble is drawn at random, what is the probability that it is blue?",
+    "options": ["A) 1/3", "B) 1/2", "C) 2/3", "D) 3/4"],
+    "correctAnswer": "B",
+    "explanation": "Total marbles = 4 + 6 + 2 = 12. P(blue) = 6/12 = 1/2. Probability = (favorable outcomes) / (total outcomes). Always count total outcomes first."
+  },
+  {
+    "id": 70,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "The ratio of boys to girls in a school is 3:4. If there are 280 students total, how many are girls?",
+    "options": ["A) 80", "B) 120", "C) 160", "D) 180"],
+    "correctAnswer": "C",
+    "explanation": "Total parts = 3 + 4 = 7. Each part = 280/7 = 40. Girls = 4 × 40 = 160. Ratio problems: always find the value of one 'part' first, then multiply."
+  },
+  {
+    "id": 71,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A machine produces 1,200 units in 8 hours. How many units does it produce per minute?",
+    "options": ["A) 2", "B) 2.5", "C) 3", "D) 150"],
+    "correctAnswer": "B",
+    "explanation": "Rate per hour = 1200/8 = 150 units/hour. Per minute = 150/60 = 2.5 units/minute. Unit conversion is critical — always check whether the question asks for per hour or per minute."
+  },
+  {
+    "id": 72,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "The mean of five numbers is 20. If four of the numbers are 15, 18, 22, and 25, what is the fifth number?",
+    "options": ["A) 18", "B) 20", "C) 22", "D) 25"],
+    "correctAnswer": "B",
+    "explanation": "Mean = Sum/Count → Sum = 20 × 5 = 100. Known sum = 15 + 18 + 22 + 25 = 80. Fifth number = 100 - 80 = 20. Mean problems: always work backwards using Sum = Mean × Count."
+  },
+  {
+    "id": 73,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A student scored 78, 82, and 90 on three tests. What score must they get on the fourth test to have an average of 85?",
+    "options": ["A) 85", "B) 88", "C) 90", "D) 92"],
+    "correctAnswer": "C",
+    "explanation": "Desired sum = 85 × 4 = 340. Current sum = 78 + 82 + 90 = 250. Required score = 340 - 250 = 90."
+  },
+  {
+    "id": 74,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "If a price increases from 200 ETB to 250 ETB, what is the percentage increase?",
+    "options": ["A) 20%", "B) 25%", "C) 50%", "D) 125%"],
+    "correctAnswer": "B",
+    "explanation": "% increase = (New - Old) / Old × 100 = (250 - 200) / 200 × 100 = 50/200 × 100 = 25%. Always divide by the ORIGINAL (old) value, not the new one."
+  },
+  {
+    "id": 75,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "Two workers together can complete a job in 6 hours. Worker A alone takes 10 hours. How long does Worker B alone take?",
+    "options": ["A) 12 hours", "B) 15 hours", "C) 16 hours", "D) 18 hours"],
+    "correctAnswer": "B",
+    "explanation": "Combined rate = 1/6. Rate A = 1/10. Rate B = 1/6 - 1/10 = 5/30 - 3/30 = 2/30 = 1/15. So Worker B alone takes 15 hours. Work-rate problems: 1/time = rate. Total rate = sum of individual rates."
+  },
+  {
+    "id": 76,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "What are the solutions of x² - 7x + 12 = 0?",
+    "options": ["A) x = 3 and x = 4", "B) x = -3 and x = -4", "C) x = 2 and x = 6", "D) x = 1 and x = 12"],
+    "correctAnswer": "A",
+    "explanation": "Factor: find two numbers that multiply to 12 and add to -7: they are -3 and -4. So (x - 3)(x - 4) = 0 → x = 3 or x = 4. Always verify by substituting back: (3)² - 7(3) + 12 = 9 - 21 + 12 = 0. ✓"
+  },
+  {
+    "id": 77,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Simplify: (x² - 9) / (x - 3)",
+    "options": ["A) x - 3", "B) x + 3", "C) x² + 3", "D) (x + 3)(x - 3)"],
+    "correctAnswer": "B",
+    "explanation": "x² - 9 = (x + 3)(x - 3) — this is the difference of squares identity. Then (x + 3)(x - 3) / (x - 3) = x + 3, assuming x ≠ 3. Memorize: a² - b² = (a+b)(a-b)."
+  },
+  {
+    "id": 78,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "If f(x) = 3x² - 2x + 1, what is f(2)?",
+    "options": ["A) 5", "B) 9", "C) 13", "D) 17"],
+    "correctAnswer": "B",
+    "explanation": "Substitute x = 2: f(2) = 3(2²) - 2(2) + 1 = 3(4) - 4 + 1 = 12 - 4 + 1 = 9. Function notation simply means substitute the value inside the parentheses for every x."
+  },
+  {
+    "id": 79,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Which of the following is equivalent to 2⁵ × 2³?",
+    "options": ["A) 4⁸", "B) 2¹⁵", "C) 2⁸", "D) 2²"],
+    "correctAnswer": "C",
+    "explanation": "When multiplying powers with the same base, add the exponents: 2⁵ × 2³ = 2^(5+3) = 2⁸. This is the Product of Powers rule. For division: subtract exponents. For power of a power: multiply."
+  },
+  {
+    "id": 80,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "What is the value of √(144) + √(25)?",
+    "options": ["A) 13", "B) 17", "C) 19", "D) 169"],
+    "correctAnswer": "B",
+    "explanation": "√144 = 12 and √25 = 5. So 12 + 5 = 17. Note: √(144 + 25) ≠ √144 + √25. These are different operations. √169 = 13, which is a common trap answer here."
+  },
+  {
+    "id": 81,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "A quadratic equation has vertex at (2, -3) and opens upward. Which of the following is a possible equation?",
+    "options": ["A) y = (x - 2)² - 3", "B) y = (x + 2)² - 3", "C) y = -(x - 2)² - 3", "D) y = (x - 2)² + 3"],
+    "correctAnswer": "A",
+    "explanation": "Vertex form: y = a(x - h)² + k, where (h, k) is the vertex and a > 0 for opening upward. With vertex (2, -3) and a > 0: y = (x - 2)² - 3. Note: (x - 2) NOT (x + 2) — the sign inside is opposite to h."
+  },
+  {
+    "id": 82,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Simplify: (3x²y)(4xy³)",
+    "options": ["A) 7x³y⁴", "B) 12x³y⁴", "C) 12x²y⁴", "D) 7x²y³"],
+    "correctAnswer": "B",
+    "explanation": "Multiply coefficients: 3 × 4 = 12. Multiply x terms: x² × x = x³. Multiply y terms: y × y³ = y⁴. Result: 12x³y⁴. When multiplying variables, add exponents."
+  },
+  {
+    "id": 83,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "If g(x) = 2x + 5 and g(a) = 13, what is the value of a?",
+    "options": ["A) 3", "B) 4", "C) 6", "D) 9"],
+    "correctAnswer": "B",
+    "explanation": "g(a) = 2a + 5 = 13. So 2a = 8, a = 4. This tests function composition in reverse — you're given the output and solving for the input."
+  },
+  {
+    "id": 84,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Which expression is equivalent to (x + 4)²?",
+    "options": ["A) x² + 16", "B) x² + 4x + 16", "C) x² + 8x + 16", "D) x² + 8x + 8"],
+    "correctAnswer": "C",
+    "explanation": "(x + 4)² = (x + 4)(x + 4) = x² + 4x + 4x + 16 = x² + 8x + 16. The most common error is (x + 4)² = x² + 16, forgetting the middle term. Remember: (a + b)² = a² + 2ab + b²."
+  },
+  {
+    "id": 85,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Solve for x: (x/3) + 4 = 7",
+    "options": ["A) 3", "B) 6", "C) 9", "D) 12"],
+    "correctAnswer": "C",
+    "explanation": "Subtract 4 from both sides: x/3 = 3. Multiply both sides by 3: x = 9. Always isolate the variable by performing inverse operations in the correct order."
+  },
+  {
+    "id": 86,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "A circle has a radius of 5 cm. What is its area? (Use π ≈ 3.14)",
+    "options": ["A) 31.4 cm²", "B) 78.5 cm²", "C) 31.4 cm", "D) 157 cm²"],
+    "correctAnswer": "B",
+    "explanation": "Area = πr² = 3.14 × 5² = 3.14 × 25 = 78.5 cm². Note that area is always in square units. The circumference (2πr) would be 31.4 cm — a common distractor here."
+  },
+  {
+    "id": 87,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "In a right triangle, one leg is 6 and the other leg is 8. What is the length of the hypotenuse?",
+    "options": ["A) 10", "B) 12", "C) 14", "D) 100"],
+    "correctAnswer": "A",
+    "explanation": "Pythagorean theorem: a² + b² = c². So 6² + 8² = 36 + 64 = 100. c = √100 = 10. Memorize the 3-4-5 and 5-12-13 Pythagorean triples. Here, 6-8-10 is just 2 × (3-4-5)."
+  },
+  {
+    "id": 88,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "What is the sum of interior angles of a pentagon?",
+    "options": ["A) 360°", "B) 450°", "C) 540°", "D) 720°"],
+    "correctAnswer": "C",
+    "explanation": "Sum of interior angles = (n - 2) × 180°, where n = number of sides. For a pentagon, n = 5: (5 - 2) × 180 = 3 × 180 = 540°. Memorize the formula and common values: triangle=180°, quadrilateral=360°, pentagon=540°, hexagon=720°."
+  },
+  {
+    "id": 89,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "A rectangle has a length of 12 cm and a width of 7 cm. What is its perimeter?",
+    "options": ["A) 38 cm", "B) 84 cm", "C) 42 cm", "D) 19 cm"],
+    "correctAnswer": "A",
+    "explanation": "Perimeter = 2(l + w) = 2(12 + 7) = 2(19) = 38 cm. Do not confuse perimeter (sum of all sides) with area (l × w = 84 cm²)."
+  },
+  {
+    "id": 90,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "In a 30-60-90 right triangle, if the shortest leg is 5, what is the hypotenuse?",
+    "options": ["A) 5√3", "B) 10", "C) 5√2", "D) 7.5"],
+    "correctAnswer": "B",
+    "explanation": "In a 30-60-90 triangle, the sides are in ratio 1 : √3 : 2. The shortest leg (opposite 30°) = 1 unit. So if shortest leg = 5, hypotenuse = 2 × 5 = 10. The longer leg would be 5√3."
+  },
+  {
+    "id": 91,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "Two parallel lines are cut by a transversal. If one angle measures 65°, what is the measure of its alternate interior angle?",
+    "options": ["A) 25°", "B) 65°", "C) 115°", "D) 130°"],
+    "correctAnswer": "B",
+    "explanation": "Alternate interior angles formed by a transversal cutting parallel lines are equal (congruent). So the alternate interior angle is also 65°. Co-interior (same-side) angles are supplementary (add to 180°)."
+  },
+  {
+    "id": 92,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "What is the value of 4⁻² ?",
+    "options": ["A) -16", "B) -8", "C) 1/16", "D) 1/8"],
+    "correctAnswer": "C",
+    "explanation": "A negative exponent means take the reciprocal: 4⁻² = 1/4² = 1/16. Remember: a⁻ⁿ = 1/aⁿ. This never gives a negative result for positive bases."
+  },
+  {
+    "id": 93,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A dataset has values: 10, 20, 20, 30, 100. Which measure of central tendency is most affected by the outlier (100)?",
+    "options": ["A) Mode", "B) Median", "C) Mean", "D) Range"],
+    "correctAnswer": "C",
+    "explanation": "Mean = (10+20+20+30+100)/5 = 180/5 = 36. Median = 20 (middle value, unaffected by outlier). Mode = 20 (most frequent). The mean is heavily pulled by the outlier 100. This is a key statistical concept."
+  },
+  {
+    "id": 94,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Simplify: √50",
+    "options": ["A) 5", "B) 5√2", "C) 10", "D) 25√2"],
+    "correctAnswer": "B",
+    "explanation": "√50 = √(25 × 2) = √25 × √2 = 5√2. The strategy is to factor out the largest perfect square. Always look for the largest perfect square factor: 4, 9, 16, 25, 36, 49, 64..."
+  },
+  {
+    "id": 95,
+    "section": "Quantitative Reasoning",
+    "topic": "Heart of Algebra",
+    "question": "If x + y = 10 and x - y = 4, what is the value of x?",
+    "options": ["A) 3", "B) 5", "C) 7", "D) 14"],
+    "correctAnswer": "C",
+    "explanation": "Add the two equations: (x + y) + (x - y) = 10 + 4 → 2x = 14 → x = 7. Then y = 10 - 7 = 3. This 'elimination by addition' technique is the fastest way to solve symmetric systems."
+  },
+  {
+    "id": 96,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Trigonometry",
+    "question": "In a right triangle with hypotenuse 10 and one leg of 6, what is the sine of the angle opposite the leg of length 6?",
+    "options": ["A) 0.6", "B) 0.75", "C) 0.8", "D) 1.2"],
+    "correctAnswer": "A",
+    "explanation": "sin(θ) = opposite/hypotenuse = 6/10 = 0.6. Remember SOH-CAH-TOA: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+  },
+  {
+    "id": 97,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A box contains 5 red balls, 3 blue balls, and 2 yellow balls. What is the probability of NOT drawing a yellow ball?",
+    "options": ["A) 1/5", "B) 4/5", "C) 2/5", "D) 3/5"],
+    "correctAnswer": "B",
+    "explanation": "P(yellow) = 2/10 = 1/5. P(not yellow) = 1 - 1/5 = 4/5. The complement rule: P(not A) = 1 - P(A). This is often the fastest approach in probability questions."
+  },
+  {
+    "id": 98,
+    "section": "Quantitative Reasoning",
+    "topic": "Advanced Math",
+    "question": "Which of the following represents a polynomial of degree 3?",
+    "options": ["A) 4x² + 3x - 1", "B) 7x³ - 2x + 5", "C) x⁴ + x", "D) 6"],
+    "correctAnswer": "B",
+    "explanation": "The degree of a polynomial is the highest exponent of the variable. In choice B, 7x³ - 2x + 5, the highest power is 3, making it a degree 3 (cubic) polynomial."
+  },
+  {
+    "id": 99,
+    "section": "Quantitative Reasoning",
+    "topic": "Problem-Solving & Data Analysis",
+    "question": "A train travels from City A to City B at 60 km/h and returns at 90 km/h. What is the average speed for the entire round trip?",
+    "options": ["A) 72 km/h", "B) 75 km/h", "C) 78 km/h", "D) 80 km/h"],
+    "correctAnswer": "A",
+    "explanation": "Average speed for equal distances ≠ simple average of speeds. Use: Average speed = 2v₁v₂/(v₁+v₂) = 2(60)(90)/(60+90) = 10800/150 = 72 km/h. The simple average of 75 is the most common wrong answer here."
+  },
+  {
+    "id": 100,
+    "section": "Quantitative Reasoning",
+    "topic": "Additional Topics – Geometry",
+    "question": "The volume of a rectangular box is 240 cm³. If its length is 8 cm and width is 5 cm, what is its height?",
+    "options": ["A) 4 cm", "B) 5 cm", "C) 6 cm", "D) 8 cm"],
+    "correctAnswer": "C",
+    "explanation": "Volume = length × width × height → 240 = 8 × 5 × h → 240 = 40h → h = 6 cm. Always isolate the unknown. Volume is in cubic units (cm³)."
+  }
+]
