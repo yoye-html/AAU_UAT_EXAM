@@ -490,7 +490,7 @@
     "section": "Quantitative Reasoning",
     "topic": "Probability",
     "question": "Events A and B are mutually exclusive. P(A) = 0.3 and P(B) = 0.5. What is P(A or B)?",
-    "options": ["A) 0.15", "B) 0.20", "C") 0.80", "D) 0.80"],
+    "options": ["A) 0.15", "B) 0.20", "C) 0.80", "D) 0.80"],
     "correctAnswer": "C",
     "explanation": "For mutually exclusive events (cannot both happen): P(A or B) = P(A) + P(B) = 0.3 + 0.5 = 0.8. Mutually exclusive means P(A and B) = 0, so no subtraction needed."
   },
