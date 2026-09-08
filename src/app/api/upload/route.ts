@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
-import sharp from 'sharp';
 import { v4 as uuidv4 } from 'uuid';
 
 const proctoringCapturesTable = process.env.SUPABASE_CAPTURES_TABLE || 'proctoring_captures';
@@ -45,13 +44,7 @@ export async function POST(request: NextRequest) {
 
     // Convert File to Buffer
     const arrayBuffer = await imageFile.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-
-    // Compress and resize with sharp
-    const processedBuffer = await sharp(buffer)
-      .resize(640, 480, { fit: 'inside', withoutEnlargement: true })
-      .jpeg({ quality: 75, progressive: true })
-      .toBuffer();
+    const imageBuffer = Buffer.from(arrayBuffer);
 
     // Generate unique filename
     const fileName = `captures/${uuidv4()}.jpg`;
@@ -60,7 +53,7 @@ export async function POST(request: NextRequest) {
     const { error: uploadError } = await supabase
       .storage
       .from(proctoringBucket)
-      .upload(fileName, processedBuffer, {
+      .upload(fileName, imageBuffer, {
         contentType: 'image/jpeg',
         cacheControl: '3600',
         upsert: false
