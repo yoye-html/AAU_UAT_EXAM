@@ -24,7 +24,7 @@ export default function ExamPage() {
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [revealed, setRevealed] = useState<Record<number, boolean>>({});
-  const [timeLeft, setTimeLeft] = useState(120 * 60); // 120 minutes
+  const [timeLeft, setTimeLeft] = useState(144 * 60); // 144 minutes for 120 questions @ 72s each
   const [isSubmitting, setIsSubmitting] = useState(false);
   const router = useRouter();
 
@@ -69,17 +69,16 @@ export default function ExamPage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           answers,
-          timeTaken: 120 * 60 - timeLeft,
+          timeTaken: 144 * 60 - timeLeft,
           totalQuestions: questions.length
         })
       });
       const data = await response.json();
-      // Encode answers in URL for results page to use
       const encodedAnswers = encodeURIComponent(JSON.stringify(answers));
-      router.push(`/results?resultId=${data.resultId || ''}&timeTaken=${120 * 60 - timeLeft}&answers=${encodedAnswers}`);
+      router.push(`/results?resultId=${data.resultId || ''}&timeTaken=${144 * 60 - timeLeft}&answers=${encodedAnswers}`);
     } catch {
       const encodedAnswers = encodeURIComponent(JSON.stringify(answers));
-      router.push(`/results?timeTaken=${120 * 60 - timeLeft}&answers=${encodedAnswers}`);
+      router.push(`/results?timeTaken=${144 * 60 - timeLeft}&answers=${encodedAnswers}`);
     }
   };
 
