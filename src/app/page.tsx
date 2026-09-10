@@ -1,15 +1,37 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-import { AlertCircle } from 'lucide-react';
+import Link from 'next/link';
+import { AlertCircle, LogOut } from 'lucide-react';
+import { createClient } from '@/utils/supabase/client';
 
 export default function LandingPage() {
   const [isConsentChecked, setIsConsentChecked] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
+  const [user, setUser] = useState<any>(null);
+  const [isAuthLoading, setIsAuthLoading] = useState(true);
+
   const router = useRouter();
+  const supabase = createClient();
+
+  useEffect(() => {
+    const checkUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      setUser(user);
+      setIsAuthLoading(false);
+    };
+    checkUser();
+  }, [supabase.auth]);
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    setUser(null);
+    router.refresh();
+  };
 
   const handleStartExam = async () => {
     if (!isConsentChecked) {
@@ -56,9 +78,24 @@ export default function LandingPage() {
               height={36}
               className="rounded-full object-cover border-2 border-blue-200 shadow"
             />
-            <h1 className="text-xl font-bold text-blue-800">AAU UAT Mock Exam</h1>
+            <h1 className="text-xl font-bold text-blue-800 hidden sm:block">AAU UAT Mock Exam</h1>
           </div>
-          <div className="text-sm text-gray-500">Addis Ababa University</div>
+          <div className="flex items-center gap-4">
+            {!isAuthLoading && user && (
+              <div className="flex items-center gap-3">
+                <span className="text-sm font-medium text-gray-700 hidden sm:block">
+                  {user.user_metadata?.full_name || user.email}
+                </span>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center gap-1 text-sm text-gray-500 hover:text-red-600 transition-colors"
+                  title="Log out"
+                >
+                  <LogOut className="w-4 h-4" />
+                </button>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 
@@ -96,73 +133,99 @@ export default function LandingPage() {
             </ul>
           </div>
 
-          {/* Proctoring Notice */}
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8 flex items-start gap-3">
-            <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-            <div>
-              <h4 className="font-semibold text-amber-800 mb-1">Proctoring Required</h4>
-              <p className="text-sm text-amber-700">
-                This exam uses automated proctoring. Your camera will be active during the exam
-                to ensure academic integrity. A visible recording indicator will remain on screen
-                throughout the session. Images are securely uploaded for compliance auditing.
-              </p>
+          {isAuthLoading ? (
+            <div className="flex justify-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
             </div>
-          </div>
-
-          {/* Consent Checkbox */}
-          <div className="border-t pt-6 mb-6">
-            <label className="flex items-start gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={isConsentChecked}
-                onChange={(e) => setIsConsentChecked(e.target.checked)}
-                className="mt-1 w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 cursor-pointer"
-              />
-              <span className="text-gray-700 text-sm leading-relaxed">
-                I consent to transparent video recording and identity verification for the
-                duration of this exam. I understand that a recording indicator will remain
-                visible while the camera is active and that captures are securely stored.
-                <span className="text-red-500 ml-1">*</span>
-              </span>
-            </label>
-
-            {error && (
-              <div className="mt-3 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm flex items-start gap-2">
-                <AlertCircle className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                {error}
-              </div>
-            )}
-          </div>
-
-          {/* Start Button */}
-          <button
-            onClick={handleStartExam}
-            disabled={isLoading}
-            className={`w-full py-4 rounded-xl font-semibold text-white text-lg transition-all ${
-              isConsentChecked && !isLoading
-                ? 'bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl cursor-pointer'
-                : 'bg-gray-300 cursor-not-allowed'
-            }`}
-          >
-            {isLoading ? (
-              <span className="flex items-center justify-center gap-2">
-                <svg
-                  className="animate-spin h-5 w-5 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
+          ) : !user ? (
+            <div className="border-t pt-8 text-center">
+              <h3 className="text-lg font-semibold text-gray-800 mb-4">Please log in to start the exam</h3>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  href="/login"
+                  className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-sm"
                 >
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
-                Accessing Camera...
-              </span>
-            ) : (
-              'Start Exam & Enable Camera'
-            )}
-          </button>
+                  Log In
+                </Link>
+                <Link
+                  href="/register"
+                  className="px-8 py-3 bg-white text-blue-600 border border-blue-200 rounded-lg font-medium hover:bg-blue-50 transition-colors shadow-sm"
+                >
+                  Register
+                </Link>
+              </div>
+            </div>
+          ) : (
+            <>
+              {/* Proctoring Notice */}
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8 flex items-start gap-3">
+                <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="font-semibold text-amber-800 mb-1">Proctoring Required</h4>
+                  <p className="text-sm text-amber-700">
+                    This exam uses automated proctoring. Your camera will be active during the exam
+                    to ensure academic integrity. A visible recording indicator will remain on screen
+                    throughout the session. Images are securely uploaded for compliance auditing.
+                  </p>
+                </div>
+              </div>
 
-          <p className="text-center text-xs text-gray-400 mt-6">
+              {/* Consent Checkbox */}
+              <div className="border-t pt-6 mb-6">
+                <label className="flex items-start gap-3 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={isConsentChecked}
+                    onChange={(e) => setIsConsentChecked(e.target.checked)}
+                    className="mt-1 w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 cursor-pointer"
+                  />
+                  <span className="text-gray-700 text-sm leading-relaxed">
+                    I consent to transparent video recording and identity verification for the
+                    duration of this exam. I understand that a recording indicator will remain
+                    visible while the camera is active and that captures are securely stored.
+                    <span className="text-red-500 ml-1">*</span>
+                  </span>
+                </label>
+
+                {error && (
+                  <div className="mt-3 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm flex items-start gap-2">
+                    <AlertCircle className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                    {error}
+                  </div>
+                )}
+              </div>
+
+              {/* Start Button */}
+              <button
+                onClick={handleStartExam}
+                disabled={isLoading}
+                className={`w-full py-4 rounded-xl font-semibold text-white text-lg transition-all ${
+                  isConsentChecked && !isLoading
+                    ? 'bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl cursor-pointer'
+                    : 'bg-gray-300 cursor-not-allowed'
+                }`}
+              >
+                {isLoading ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <svg
+                      className="animate-spin h-5 w-5 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Accessing Camera...
+                  </span>
+                ) : (
+                  'Start Exam & Enable Camera'
+                )}
+              </button>
+            </>
+          )}
+
+          <p className="text-center text-xs text-gray-400 mt-8">
             AAU UAT Mock Exam · Powered by Savvy Society Academic Team
           </p>
         </div>
